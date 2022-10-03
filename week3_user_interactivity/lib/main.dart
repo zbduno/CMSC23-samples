@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(appBar: AppBar(title: const Text('Flutter App Sample')),
             body: Container(padding: const EdgeInsets.all(20),
-            child: InputFieldsSample(),))
+            child: FormSample(),))
       ,
     );
   }
